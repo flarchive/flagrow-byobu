@@ -1,0 +1,28 @@
+flagrow-byobu:
+    forum:
+        badges:
+            is_private:
+                tooltip: Private discussion
+        buttons:
+            add_recipients: Recipients
+            submit: OK
+            edit_recipients: Edit Recipients
+        labels:
+            user_deleted: -deleted-
+        nav:
+            private_discussions: Private discussion
+        input:
+            search_recipients: Search recipient by typing first three characters..
+        modal:
+            titles:
+                update_recipients: Update recipients of {title}
+                add_recipients: Add recipients to your discussion
+        post:
+            recipients_modified:
+                added_and_removed: "{username} added recipients {added} and removed {removed}."
+                added: "{username} added recipients {added}."
+                removed: "{username} removed recipients {removed}."
+    admin:
+        permission:
+            create_private_discussions: Create private discussions
+            edit_recipients: Edit recipients of private discussions
